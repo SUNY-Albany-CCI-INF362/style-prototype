@@ -560,3 +560,24 @@ button {
 /* @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   @import "2x";
 } */
+
+/* HEADER & LOGO */
+header {
+  width: 100%;
+  background-color: black;
+  text-align:center;}
+  header a {
+    font-size:2em;
+    color:#FFF;
+    font-weight:700;
+    text-decoration: none;
+  }
+  header .wrapper {
+    position: relative;
+    max-width: 35em;
+    padding: .4em 0; }
+  header img {
+    display: block;
+    max-width: 154px;
+    margin: 0 auto; }
+
